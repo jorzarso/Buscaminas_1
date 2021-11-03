@@ -1,0 +1,15 @@
+/*Dimensionado de la clase matriz del html*/
+.matriz{
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    /*Para poder agrupar todos los cuadraditos*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Dimensionado de los cuadraditos*/
+.matriz div{
+    height: 40px;
+    width: 40px;
+}
